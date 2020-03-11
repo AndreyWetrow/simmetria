@@ -1,3 +1,1 @@
-# MyGulpTemplate
-Gulp template
 # simmetria

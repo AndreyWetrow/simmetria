@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  padding: 285px 0 34px;
+  @media screen and (max-width: 680px) {
+    padding-top: 100px;
+  }
+
+  &__copy {
+    padding-top: 27px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.05px;
+  }
+
+  .btn {
+    span {
+      padding: 17px 17px 15px;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}

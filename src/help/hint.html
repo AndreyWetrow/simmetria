@@ -1,0 +1,30 @@
+//Работа с svg
+  //html
+<svg class="section-wrap_img">
+  <use xlink:href="img/symbol/sprite.svg#logo-1"></use>
+</svg>
+  //css
+  svg {
+    fill: blue;
+    background-color: #fff;
+    margin-left: 45px;
+    height: 100px;
+    width: 50px;
+//Или так///////////////////////////////
+<svg class="cart" >
+  <use xlink:href="img/symbol/sprite.svg#cart"></use>>
+  <use xlink:href="img/symbol/sprite.svg#cart" x="150"></use>>
+</svg>
+<!-- стили можно прописывать и для use и для svg -->
+<style>
+  .cart {
+    stroke: red;
+    fill: yellow;
+  }
+</style>
+//////////////////////////////////////////////////  
+pug
+p Звоните #[a(href="" class="123") 123-123] --- ( <p>Звоните <a class="123" href="">123-123</a></p>)  Все ради пробела между Звоните и <a>
+/////////////////////////////// 
+https://via.placeholder.com/150x150
+.////////////////////////

@@ -1,0 +1,126 @@
+.font(@fontName; @urlName: @fontName; @weight: normal; @style: normal) {
+  font-family: '@{fontName}';
+  src: url('../fonts/@{fontName}/@{urlName}.woff2');
+  src: 
+  url('../fonts/@{fontName}/@{urlName}.woff') format('woff');
+  // url('../fonts/@{fontName}/@{urlName}.eot#iefix') format('eot'), 
+  // url('../fonts/@{fontName}/@{urlName}.eot') format('eot'), 
+  // url('../fonts/@{fontName}/@{urlName}.ttf') format('truetype'),
+  // url('../fonts/@{fontName}/@{urlName}.svg#webfont') format('svg');
+  font-weight: @weight;
+  font-display: swap;
+  font-style: @style; 
+}
+
+.size(@a,@b: @a) {
+  width: @a;
+  height: @b;
+}
+
+// .placeholder {
+//   ::-webkit-input-placeholder {@content}
+//   :-moz-placeholder           {@content}
+//   ::-moz-placeholder          {@content}
+//   :-ms-input-placeholder      {@content}
+// }
+
+
+.min-max(@min-width, @max-width, @padding) {
+  min-width: @min-width;
+  max-width: @max-width;
+  padding: 0 @padding;
+  box-sizing: border-box;
+  margin: 0 auto;
+} 
+
+.mainBtn() {
+  display: inline-block;
+  border: 2px solid #444444;
+  color: #444444;
+  box-sizing: border-box;
+  padding: 14px 96px;
+  text-decoration: none;
+  background-color: #fff; 
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center; 
+  outline: none;
+  transition: background-color .1s ease;
+  cursor: pointer; 
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: lighten(#fff, 5%);
+  }
+
+  &:active {
+    background-color: darken(#fff, 5%);
+  } 
+}
+
+.myButton() {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: @accent;
+  padding: 16px 45px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  outline: none;
+  transition: background-color .1s ease;
+  cursor: pointer;
+
+  &::after {
+    transition: background-color .2s ease;
+    position: absolute;
+    content: '';
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: darken(@accent, 50%);
+    opacity: .18;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: lighten(@accent, 5%);
+  }
+
+  &:active {
+    background-color: darken(@accent, 5%);
+  }
+
+  &::after {
+    opacity: .32;
+  }
+}
+
+.opacity(@opacity) {
+  opacity: @opacity / 100;
+  filter: alpha(opacity=@opacity)
+}
+
+// Плавная анимация кнопки с помощью градиента
+// https://medium.com/@xnim/%D0%B0%D0%BD%D0%B8%D0%BC%D0%B8%D1%80%D1%83%D0%B5%D0%BC-linear-gradient-background-image-407c78c0661f

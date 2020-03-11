@@ -1,0 +1,196 @@
+.causes {
+  display: flex;
+
+  &-block {
+    width: 50%;
+
+  }
+
+  &-left {
+    background-color: #fff;
+
+    .causes__item {
+      margin-left: auto;
+      margin-right: 15px;
+    }
+  }
+
+  &-right {
+    background-image: linear-gradient(0deg, rgb(245, 131, 69) 0%, rgb(245, 168, 69) 100%);
+  }
+
+
+  &__item {
+    max-width: 570px;
+
+
+    &-row {
+      display: flex;
+      margin-bottom: 50px;
+
+      &>* {
+        &:not(:last-child) {
+          margin-right: 30px;
+        }
+      }
+    }
+
+    &-title {
+      margin-bottom: 38px;
+      padding-top: 50px;
+    }
+  }
+
+  &-point {
+    display: flex;
+    flex: 1 1 270px;
+    max-width: 270px;
+    min-width: 0;
+
+    &__content {
+      min-width: 0;
+      min-height: 95px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__img {
+      min-width: 0;
+      fill: $main-orange;
+      flex: 0 0 70px;
+    }
+
+    &__title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      line-height: 1;
+    }
+
+    &__text {
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    .icon {
+      &-funds {
+        width: 44px;
+        height: 40px;
+      }
+
+      &-text {
+        width: 31px;
+        height: 42px;
+      }
+
+      &-design {
+        width: 55px;
+        height: 56px;
+      }
+
+      &-sketch {
+        width: 52px;
+        height: 52px;
+      }
+
+      &-discount {
+        width: 49px;
+        height: 37px;
+      }
+
+      &-clock {
+        width: 54px;
+        height: 54px;
+      }
+
+      &-badge {
+        width: 34px;
+        height: 48px;
+      }
+
+      &-visibility {
+        width: 46px;
+        height: 49px;
+      }
+    }
+  }
+}
+
+.causes-right {
+  &__wrapper {
+    margin-left: 85px;
+    max-width: 500px;
+    display: block;
+  }
+
+  &__descr {
+    padding-left: 65px;
+    padding-right: 60px;
+    position: relative;
+    margin-bottom: 40px;
+
+    &::after {
+      content: "\201C";
+      position: absolute;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 100px;
+      line-height: 1;
+      color: #f5be45;
+      left: 0;
+      top: -13px;
+    }
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.2;
+
+    span {
+      display: block;
+      color: #f5cd45;
+      font-size: 14px;
+      font-style: normal;
+      padding: 5px 0;
+    }
+  }
+
+  &__content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    max-height: 140px;
+    overflow: auto;
+  }
+
+  &__text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+  }
+
+  &__video {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    height: 280px;
+    box-shadow: 0px 15px 20px 0px rgba(83, 31, 9, 0.25);
+
+
+    iframe {
+      border-radius: 10px;
+    }
+  }
+
+  .simplebar-scrollbar::before {
+    background-color: #fff;
+  }
+
+  .simplebar-scrollbar.simplebar-visible::before {
+    opacity: .8;
+  }
+}

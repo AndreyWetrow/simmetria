@@ -1,0 +1,44 @@
+include ../utils/mixins
+block variables
+
+doctype html
+html(lang="ru-RU")
+  head
+    meta(charset="utf-8")
+    title #{title}
+    <!--[if IE]>
+    meta(http-equiv='X-UA-Compatible', content="IE = edge")
+    <![endif]-->
+    meta(name="viewport" content="width=device-width,initial-scale=1")
+    meta(name="keywords" content="")
+    
+    link(link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,700,900&display=swap&subset=cyrillic" rel="stylesheet") 
+    link(rel="stylesheet" type='text/css' href="css/style.css")
+
+    <!--[if lt IE 9]>
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js")
+    <![endif]-->
+  body(class = pageClass )
+    //- .preloader.pre-loader
+      .sk-fading-circle 
+        .sk-circle1.sk-circle
+        .sk-circle2.sk-circle
+        .sk-circle3.sk-circle
+        .sk-circle4.sk-circle
+        .sk-circle5.sk-circle
+        .sk-circle6.sk-circle
+        .sk-circle7.sk-circle
+        .sk-circle8.sk-circle
+        .sk-circle9.sk-circle
+        .sk-circle10.sk-circle
+        .sk-circle11.sk-circle
+        .sk-circle12.sk-circle
+    include ../modules/header/header
+    block content
+      //- include ../modules/footer/footer
+    include ../modules/popups/popups
+    //- script(src="static/js/jquery-3.3.1.min.js")
+    //- script(src="static/js/libs.min.js")
+    block script
+    //- script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript")
+    script(src="js/all.js")

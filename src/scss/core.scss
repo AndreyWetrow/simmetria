@@ -1,0 +1,184 @@
+// Основные стили 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Rubik', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: $font-color; 
+  background-color: #ffffff;
+  min-width: 320px;
+}
+
+//Classes
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+// html {
+//   font-size: @base-font-size;
+//   height: 100%;
+//   &.fixed { 
+//     // height: 100%;
+//     // overflow: hidden;
+//     // position: fixed;
+//     // width: 100%; 
+//     // body {
+//     //   height: 100%;
+//     //   overflow: hidden;
+//     //   position: fixed;
+//     //   width: 100%;
+//     // }
+//   }
+// }
+
+// body { 
+//   font-family: @main-font; 
+//   background-color: @main-bg-color;
+//   color: @base-text-color; 
+//   height: 100%;
+//   &.fixed {
+//     overflow: hidden; 
+//   }
+//   // line-height: 1.75;
+//   // overflow-x: hidden;
+//   // opacity: 1;
+//   // font-family: @default-font; 
+//   // font-family: 'Fira Sans', sans-serif;
+//   // max-width: 1250px;
+//   // min-width: 320px;
+//   // margin: 0 auto; 
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+//   margin: 0;
+// }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  // display: inline-block;
+  text-decoration: none;
+  // color:white;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// p {
+//   margin: 0;
+// }
+
+// audio,
+// canvas,
+// iframe,
+// img,
+// svg,
+// video,
+// textarea {
+//   outline: none;
+//   vertical-align: middle;
+// }
+
+// textarea {
+//   resize: none;
+// }
+
+// section {
+//   padding: 40px 0;
+//   position: relative;
+//   @media screen and (max-width: @tablet-size) {
+//     padding: 30px 0;
+//   }
+// }
+
+// input,
+// select,
+// button {
+//   outline: none;
+// }
+
+// // Это вставка Frontcoder для сброса стилей по умолчанию в safari
+// input[type=text],
+// input[type=submit],
+// input[type=search],
+// textarea {
+//   -webkit-apperance: none;
+// }
+// /////////////////////////////////////////////////////////////////////
+
+
+// //!!!!!!!!!!!
+
+
+
+// // .container {
+// //   .min-max(320px, 1920px, 15px);
+// // }
+
+// // .container {
+// //   .container();
+// // }
+
+// .wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100%;
+// }
+
+// .content {
+//   flex: 1 0 auto;
+// }
+
+// ////////////////////////////////////// 
+
+// .visually-hidden:not(:focus):not(:active) {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   margin: -1px;
+//   border: 0;
+//   padding: 0;
+//   white-space: nowrap;
+//   clip-path: inset(100%);
+//   clip: rect(0 0 0 0);
+//   overflow: hidden;
+// }
+
+
+// .overlayForm {
+//   position: fixed;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   z-index: 100;
+//   background-color: rgba(#000, 0.8);
+//   display: none; 
+// }

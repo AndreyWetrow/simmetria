@@ -1,0 +1,14 @@
+.form-group {
+  input[type=submit].btn {
+    border-radius: 25px;
+    height: auto;
+    padding: 15px 20px;
+  }
+
+  &--width-m {
+    max-width: 220px;
+    flex: 0 0 220px;
+    margin: auto;
+
+  }
+}

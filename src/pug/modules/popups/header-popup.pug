@@ -1,0 +1,25 @@
+.popup.mfp-hide.popup-bg#popup-header 
+  .popup__header
+    .popup__title Хотите #[span бесплатный] дизайн проект?
+  .popup__body
+      form.form
+        .form__body
+          .form-line
+            .form-group 
+              label.form-group__label Ваше имя
+              input(placeholder="Константин" type="text" name="text")
+          .form-line
+            .form-group 
+              label.form-group__label Ваш телефон
+              input(placeholder="+998 9" type="tel")
+          .form-line
+            .form-group.checkbox--width 
+              label.checkbox
+                input(type="checkbox")
+                span.checkbox__custom
+                span.checkbox__text Принимаю условия
+            a(href="#").form-group__href обработки данных
+          .form__footer
+            .form-line
+              .form-group.form-group--width-m
+                input(type="submit" value="Получить дизайн").btn 

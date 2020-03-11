@@ -1,0 +1,19 @@
+extends template/main 
+
+block variables
+  - var title = 'ruler';
+  - var pageClass = 'index-page';
+
+block content
+  include modules/causes/causes
+  include modules/works/works
+  include modules/discount/discount
+  include modules/how/how
+  //- include pages/index/popular-categories
+  //- include modules/footer/footer
+  //- include pages/index/advantages
+  //- include pages/index/actions
+  //- include pages/index/discount
+  //- include modules/sales-leaders 
+block script 
+  // script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript")

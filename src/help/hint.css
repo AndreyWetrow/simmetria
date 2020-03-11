@@ -1,0 +1,28 @@
+/* Добавление отступа каждому, кроме последнего */
+&>* {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+/////////////////////////////////
+/* Для png и jpg */
+img {
+  max-width: 80px;
+  height: auto; 
+  
+}
+
+///////////////////////////////
+
+&>* {
+  margin: 10px 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

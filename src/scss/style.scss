@@ -1,0 +1,57 @@
+@charset "UTF-8"; 
+// @import "smart-grid.less";
+
+// .reset();
+
+
+@import "../../node_modules/normalize.css/normalize";
+@import "variables";
+@import "core";
+@import "libs";
+// @import "mixins.less";
+// @import "fonts.less";
+
+@import "modules/header/header"; 
+@import "modules/discount/discount"; 
+@import "modules/how/how"; 
+@import "modules/causes/causes"; 
+@import "modules/form/form"; 
+@import "modules/small-blocks/small-blocks"; 
+@import "modules/popups/popups"; 
+@import "modules/works/works"; 
+// @import "modules/footer/footer"; 
+// @import "modules/slider/slider"; 
+// @import "modules/surf/surf"; 
+// @import "modules/shop/shop"; 
+// @import "modules/travel/travel"; 
+// @import "modules/basket/basket"; 
+
+// @import "modules/about/about";  
+// @import "modules/advantage/advantage";  
+// @import "modules/action/action"; 
+// @import "modules/breadcrumbs/breadcrumbs"; 
+// @import "modules/buttons/buttons"; 
+// @import "modules/category/category"; 
+// @import "modules/contacts/contacts"; 
+// @import "modules/dropdown/dropdown"; 
+// @import "modules/filter/filter"; 
+// @import "modules/footer/footer"; 
+// @import "modules/catalog/catalog"; 
+// @import "modules/navigation/navigation"; 
+// @import "modules/not-found/not-found"; 
+// @import "modules/product/product"; 
+// @import "modules/popups/popups"; 
+// @import "modules/small-blocks/small-blocks"; 
+// @import "modules/search/search"; 
+// @import "modules/sub-category/sub"; 
+// @import "modules/slider/slider"; 
+// @import "modules/user/user.less"; 
+// @import "blocks/surf.less"; 
+// @import "blocks/travel.less"; 
+ 
+ 
+// .degubGrid{
+//     .debug(rgba(0, 0, 0, 0.4), 1px solid #ff0);
+// }
+
+ 
