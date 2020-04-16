@@ -3183,9 +3183,9 @@ https-browserify@^1.0.0:
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
 https-proxy-agent@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
+  integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
@@ -5921,16 +5921,18 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-"simplebar-angular@file:.yalc/simplebar-angular":
-  version "1.0.13-280ed6b7"
+simplebar-angular@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/simplebar-angular/-/simplebar-angular-1.0.8.tgz#3e82e6a509461fcfeaa3f626812021a5711a70f3"
+  integrity sha512-5//nP+OImQy3cbIXb5g9o/EZNtBsGqta29yZ0RbXC+osqTeg//nk21mOq6peL1OrEoRFh+IwhiHJ/0xwtRTYiw==
   dependencies:
-    simplebar "^5.0.7"
+    simplebar "^5.0.2"
     tslib "^1.9.0"
 
-simplebar@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.0.7.tgz#9c35a944a7abff1a3c4b6bc5dfb53997dc9b14ed"
-  integrity sha512-Bp/s94+3hHBXkhi8VBkuXiNHePMGLDVjMwUEJckC3uIBwLUmJbYnT6jqoETal46l+zXbEklffLRr/TtsQwjw0A==
+simplebar@^5.0.2:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.1.0.tgz#15437ace314ec888accd7d8f24ada672e9bb2717"
+  integrity sha512-bdi1SleK1YOSnfeUjo5UQXt/79zNjsCJVEfzrm6photmGi2aU6x0l7rX4KAGcrtj5AwsWPBVXgDyYAqbbpnuRg==
   dependencies:
     can-use-dom "^0.1.0"
     core-js "^3.0.1"
