@@ -5921,16 +5921,18 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-"simplebar-angular@file:.yalc/simplebar-angular":
-  version "1.0.13-280ed6b7"
+simplebar-angular@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/simplebar-angular/-/simplebar-angular-1.0.8.tgz#3e82e6a509461fcfeaa3f626812021a5711a70f3"
+  integrity sha512-5//nP+OImQy3cbIXb5g9o/EZNtBsGqta29yZ0RbXC+osqTeg//nk21mOq6peL1OrEoRFh+IwhiHJ/0xwtRTYiw==
   dependencies:
-    simplebar "^5.0.7"
+    simplebar "^5.0.2"
     tslib "^1.9.0"
 
-simplebar@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.0.7.tgz#9c35a944a7abff1a3c4b6bc5dfb53997dc9b14ed"
-  integrity sha512-Bp/s94+3hHBXkhi8VBkuXiNHePMGLDVjMwUEJckC3uIBwLUmJbYnT6jqoETal46l+zXbEklffLRr/TtsQwjw0A==
+simplebar@^5.0.2:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.2.0.tgz#032e6e435032a0a6f26146f190bdd1095d5a9d2f"
+  integrity sha512-CpVSINCQ/XAYABUdUAnVWHyjkBYoFu+s12IUrZgVNfXzILNXP0MP+5OaIBjylzjYxIE/rsuC1K50/xJldPGGpQ==
   dependencies:
     can-use-dom "^0.1.0"
     core-js "^3.0.1"
@@ -7095,9 +7097,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 when@~3.6.x:
   version "3.6.4"
