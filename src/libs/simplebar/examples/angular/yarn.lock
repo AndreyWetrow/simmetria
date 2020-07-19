@@ -4082,9 +4082,9 @@ lodash.throttle@^4.1.1:
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.4, lodash@^4.17.5:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log4js@^4.0.0:
   version "4.5.1"
@@ -5921,16 +5921,18 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-"simplebar-angular@file:.yalc/simplebar-angular":
-  version "1.0.13-280ed6b7"
+simplebar-angular@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/simplebar-angular/-/simplebar-angular-1.0.8.tgz#3e82e6a509461fcfeaa3f626812021a5711a70f3"
+  integrity sha512-5//nP+OImQy3cbIXb5g9o/EZNtBsGqta29yZ0RbXC+osqTeg//nk21mOq6peL1OrEoRFh+IwhiHJ/0xwtRTYiw==
   dependencies:
-    simplebar "^5.0.7"
+    simplebar "^5.0.2"
     tslib "^1.9.0"
 
-simplebar@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.0.7.tgz#9c35a944a7abff1a3c4b6bc5dfb53997dc9b14ed"
-  integrity sha512-Bp/s94+3hHBXkhi8VBkuXiNHePMGLDVjMwUEJckC3uIBwLUmJbYnT6jqoETal46l+zXbEklffLRr/TtsQwjw0A==
+simplebar@^5.0.2:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.2.1.tgz#b373841d10df1827562481306a51dae9062734d6"
+  integrity sha512-nfOsptB/tb1kzSOaDIJFcrm8EXj5J0pZBPLGetJR8SE6v+97cbedtlNH/L81okgjsFlF11kDndmZ0mscaGAILw==
   dependencies:
     can-use-dom "^0.1.0"
     core-js "^3.0.1"
