@@ -1092,9 +1092,9 @@ bluebird@^3.3.0, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   integrity sha512-DdmyoGCleJnkbp3nkbxTLJ18rjDsE4yCggEwKNXkeV123sPNfOCYeDoeuOY+F2FrSjO1YXcTU+dsy96KMy+gcg==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0, body-parser@^1.16.1:
   version "1.19.0"
@@ -2221,9 +2221,9 @@ electron-to-chromium@^1.3.164, electron-to-chromium@^1.3.284:
   integrity sha512-DYR9KW723sUbGK++DCmCmM95AbNXT4Q0tlCFMcYijFjayhuDqlGYR68OemlP8MJj0gjkwdeItIUfd0oLCgw+4A==
 
 elliptic@^6.0.0:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.1.tgz#c380f5f909bf1b9b4428d028cd18d3b0efd6b52b"
-  integrity sha512-xvJINNLbTeWQjrl6X+7eQCrIy/YPv5XCpKW6kB5mKvtnGILoLDcySuwomfdzt0BMdLNVnuRNTuzKNHj0bva1Cg==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -5921,16 +5921,18 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-"simplebar-angular@file:.yalc/simplebar-angular":
-  version "1.0.13-280ed6b7"
+simplebar-angular@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/simplebar-angular/-/simplebar-angular-1.0.8.tgz#3e82e6a509461fcfeaa3f626812021a5711a70f3"
+  integrity sha512-5//nP+OImQy3cbIXb5g9o/EZNtBsGqta29yZ0RbXC+osqTeg//nk21mOq6peL1OrEoRFh+IwhiHJ/0xwtRTYiw==
   dependencies:
-    simplebar "^5.0.7"
+    simplebar "^5.0.2"
     tslib "^1.9.0"
 
-simplebar@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.0.7.tgz#9c35a944a7abff1a3c4b6bc5dfb53997dc9b14ed"
-  integrity sha512-Bp/s94+3hHBXkhi8VBkuXiNHePMGLDVjMwUEJckC3uIBwLUmJbYnT6jqoETal46l+zXbEklffLRr/TtsQwjw0A==
+simplebar@^5.0.2:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.2.1.tgz#b373841d10df1827562481306a51dae9062734d6"
+  integrity sha512-nfOsptB/tb1kzSOaDIJFcrm8EXj5J0pZBPLGetJR8SE6v+97cbedtlNH/L81okgjsFlF11kDndmZ0mscaGAILw==
   dependencies:
     can-use-dom "^0.1.0"
     core-js "^3.0.1"
